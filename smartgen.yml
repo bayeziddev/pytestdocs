@@ -1,6 +1,16 @@
 site_name: "py test docs"
-site_url: "https://github.com/bayeziddev/pytestdocs"
+site_url: "https://bayeziddev.github.io/pytestdocs"
 theme:
   name: "default"
+
+# Apnar autodoc plugin configuration
+plugins:
+  - autodoc:
+      source_dir: smartgen_docs
+      output_dir: api/modules
+      exclude:
+        - smartgen_docs/cli.py
+        - smartgen_docs/server.py
+
 nav:
   - Home: "index.md"
