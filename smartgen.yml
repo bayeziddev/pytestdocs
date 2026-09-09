@@ -1,7 +1,7 @@
 site_name: "py test docs"
 site_url: "https://bayeziddev.github.io/pytestdocs"
 theme:
-  name: "default"
+  name: "apiplay"
 
 # Apnar autodoc plugin configuration
 plugins:
