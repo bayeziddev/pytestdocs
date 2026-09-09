@@ -1,0 +1,6 @@
+site_name: "py test docs"
+site_url: "https://github.com/bayeziddev/pytestdocs"
+theme:
+  name: "default"
+nav:
+  - Home: "index.md"
